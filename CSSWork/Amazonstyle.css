@@ -60,7 +60,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(4,1fr);
+    /*grid-template-rows: repeat(4,1fr);*/
 }
 .header{
     grid-row: 1/2;
@@ -89,10 +89,12 @@ ul li{
 }
 li:hover{
     background-color: aqua;
-}
+}/*
 .wallpaper{
+    height: 10px;
+    width:100%;
 
-}
+}*/
 .cards{
     grid-row: 4/5;
     grid-column: 1/13;
